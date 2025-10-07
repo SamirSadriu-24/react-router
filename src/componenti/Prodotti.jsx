@@ -16,7 +16,7 @@ const Prodotti = () => {
     }, [])
 
     if (carica) {
-        return <p>Caricamento prodotti...</p>;
+        return <p className="carica">Caricamento prodotti...</p>;
     }
 
     return (
